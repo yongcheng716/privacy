@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy | 隐私政策 - SiamFood TMS</title>
+<style>
+  :root {
+    --text: #1d1d1f;
+    --text-secondary: #6e6e73;
+    --bg: #ffffff;
+    --bg-secondary: #f5f5f7;
+    --border: #d2d2d7;
+    --link: #0066cc;
+    --accent: #0071e3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --text: #f5f5f7;
+      --text-secondary: #a1a1a6;
+      --bg: #000000;
+      --bg-secondary: #1c1c1e;
+      --border: #38383a;
+      --link: #2997ff;
+      --accent: #0a84ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  .lang-switch {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 24px;
+    text-align: right;
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+  }
+  .lang-switch button {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 6px 14px;
+    margin-left: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.15s ease;
+  }
+  .lang-switch button:hover { border-color: var(--accent); }
+  .lang-switch button.active {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+  }
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+  h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2.5em;
+    padding-top: 0.5em;
+    border-top: 1px solid var(--border);
+  }
+  h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-top: 1.8em;
+  }
+  h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1.4em;
+    color: var(--text);
+  }
+  p, li { color: var(--text); }
+  .meta {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    font-size: 0.9rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+  }
+  th { background: var(--bg-secondary); font-weight: 600; }
+  ul { padding-left: 1.5em; }
+  li { margin: 0.3em 0; }
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 3em 0 1em;
+  }
+  .footer {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    text-align: center;
+  }
+  .lang-content { display: none; }
+  .lang-content.active { display: block; }
+  @media (max-width: 600px) {
+    h1 { font-size: 1.7rem; }
+    main { padding: 24px 16px 60px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="lang-switch">
+  <button id="btn-zh" class="active" onclick="switchLang('zh')">中文</button>
+  <button id="btn-en" onclick="switchLang('en')">English</button>
+</div>
+
+<main>
+
+<!-- ========== 中文版 ========== -->
+<section id="lang-zh" class="lang-content active">
+
+<h1>隐私政策</h1>
+<p class="meta">最后更新日期:2026 年 5 月 25 日 &nbsp;|&nbsp; 生效日期:2026 年 5 月 25 日</p>
+
+<h2>一、引言</h2>
+<p>欢迎使用 <strong>SiamFood TMS</strong>(以下简称"本 App")。本 App 由 <strong>[公司名称]</strong>(以下简称"我们")开发并运营,是一款面向配送司机的工作管理应用,主要用于配送任务管理、实时位置上报、扫码签收、电子签名等场景。</p>
+<p>我们深知个人信息对您的重要性,并会尽全力保护您的个人信息安全可靠。我们恪守以下原则保护您的个人信息:权责一致、目的明确、选择同意、最少够用、确保安全、主体参与、公开透明等。</p>
+<p>本隐私政策将向您说明我们收集哪些信息、如何使用、与谁共享、如何保护,以及您对自己信息的权利。</p>
+
+<h2>二、我们收集的信息</h2>
+
+<h3>2.1 您主动提供的信息</h3>
+<ul>
+  <li><strong>账号信息</strong>:登录所需的工号、用户名、密码(加密存储)</li>
+  <li><strong>个人资料</strong>:姓名、所属公司、所属车队(若适用)</li>
+</ul>
+
+<h3>2.2 我们在您使用本 App 时自动收集的信息</h3>
+
+<h4>(1) 位置信息</h4>
+<ul>
+  <li><strong>收集内容</strong>:精确的 GPS 位置(经度、纬度、速度、方向、海拔)</li>
+  <li><strong>收集方式</strong>:通过设备的 GPS、Wi-Fi、基站等定位服务</li>
+  <li><strong>使用场景</strong>:
+    <ul>
+      <li>前台使用时:定位当前位置、规划配送路线、显示配送地图</li>
+      <li>后台运行时:持续上报位置以便调度系统追踪配送进度</li>
+    </ul>
+  </li>
+  <li><strong>后台位置收集</strong>:仅在您处于活跃配送任务期间收集,任务结束后停止</li>
+  <li><strong>拒绝授权的影响</strong>:无法使用配送任务功能</li>
+</ul>
+
+<h4>(2) 相机和照片</h4>
+<ul>
+  <li><strong>收集内容</strong>:通过相机拍摄的配送签收照片、单据照片;您从相册中选择的图片</li>
+  <li><strong>使用场景</strong>:扫描条形码 / 二维码,拍摄配送签收证明照片,上传单据图片</li>
+  <li><strong>拒绝授权的影响</strong>:无法使用扫码和拍照签收功能</li>
+</ul>
+
+<h4>(3) 麦克风</h4>
+<ul>
+  <li><strong>收集内容</strong>:在录制视频证明时使用麦克风采集音频</li>
+  <li><strong>使用场景</strong>:配送过程中需要视频证明的场景</li>
+  <li><strong>拒绝授权的影响</strong>:无法录制带声音的视频</li>
+</ul>
+
+<h4>(4) 蓝牙</h4>
+<ul>
+  <li><strong>收集内容</strong>:与外部蓝牙设备(如手持扫码枪、便携打印机)通信所需的连接信息</li>
+  <li><strong>使用场景</strong>:连接配送作业使用的硬件设备</li>
+  <li><strong>拒绝授权的影响</strong>:无法使用外部蓝牙硬件</li>
+</ul>
+
+<h4>(5) 设备信息</h4>
+<ul>
+  <li><strong>收集内容</strong>:设备型号、操作系统版本、设备唯一标识符(如 IDFV)、网络类型、App 版本号</li>
+  <li><strong>使用场景</strong>:故障排查、版本兼容性判断、安全审计</li>
+</ul>
+
+<h4>(6) 日志信息</h4>
+<ul>
+  <li><strong>收集内容</strong>:操作日志、错误日志、网络请求记录</li>
+  <li><strong>使用场景</strong>:故障定位、产品改进、安全审计</li>
+</ul>
+
+<h3>2.3 我们不会收集的信息</h3>
+<ul>
+  <li>您的通讯录、短信、通话记录</li>
+  <li>您手机内与本 App 工作场景无关的其他个人信息</li>
+  <li>您的银行卡 / 支付账号(本 App 不涉及支付功能)</li>
+</ul>
+
+<h2>三、我们如何使用这些信息</h2>
+<ol>
+  <li><strong>提供核心业务功能</strong>:任务接收、配送路线规划、签收确认、回单上传</li>
+  <li><strong>保障运营安全</strong>:身份验证、防止账号被盗用、识别违规操作</li>
+  <li><strong>改进产品体验</strong>:统计功能使用情况、修复 Bug、优化性能</li>
+  <li><strong>法律合规</strong>:配合执法机关、监管部门的合法要求</li>
+</ol>
+<p>我们承诺不会将您的信息用于上述目的之外的用途,也不会出售或出租您的个人信息给任何第三方。</p>
+
+<h2>四、信息的共享、转让与公开披露</h2>
+
+<h3>4.1 共享</h3>
+<table>
+<thead><tr><th>接收方</th><th>共享信息</th><th>用途</th><th>隐私政策</th></tr></thead>
+<tbody>
+<tr><td><strong>高德地图(AMap)</strong></td><td>位置、设备信息</td><td>地图显示、路线规划、导航</td><td><a href="https://lbs.amap.com/pages/privacy/" target="_blank">链接</a></td></tr>
+<tr><td><strong>公司调度系统(自有服务器)</strong></td><td>位置、任务执行数据</td><td>调度管理、配送追踪</td><td>同本政策</td></tr>
+</tbody>
+</table>
+
+<h3>4.2 转让</h3>
+<p>我们不会将您的个人信息转让给任何其他公司或个人,但以下情形除外:获得您明确同意;涉及合并、收购、资产转让或破产清算时按法律要求进行,且新主体继续受本政策约束。</p>
+
+<h3>4.3 公开披露</h3>
+<p>仅在获得您明确同意或法律法规要求时公开披露。</p>
+
+<h2>五、信息的存储</h2>
+<ul>
+  <li><strong>存储地点</strong>:中国境内服务器</li>
+  <li><strong>存储期限</strong>:服务期间持续存储;账号注销或法定保留期限届满后删除或匿名化</li>
+  <li><strong>本地存储</strong>:账号凭证使用 iOS Keychain 安全加密存储</li>
+</ul>
+
+<h2>六、信息的安全</h2>
+<ul>
+  <li>网络传输使用 HTTPS / TLS 加密</li>
+  <li>敏感凭证使用 Keychain 加密存储</li>
+  <li>服务器端最小权限访问控制</li>
+  <li>定期安全审计与漏洞扫描</li>
+  <li>员工保密协议与隐私培训</li>
+</ul>
+<p>互联网环境并非百分之百安全,我们将尽最大努力保障您信息的安全。</p>
+
+<h2>七、您的权利</h2>
+<ul>
+  <li><strong>访问权</strong>:您可以查询、查阅自己的信息</li>
+  <li><strong>更正权</strong>:您可以更正错误或不完整的信息</li>
+  <li><strong>删除权</strong>:符合法律规定时可要求删除</li>
+  <li><strong>撤回同意权</strong>:可撤回此前作出的授权同意</li>
+  <li><strong>注销账号权</strong>:可联系我们注销账号</li>
+  <li><strong>投诉权</strong>:可向监管部门投诉</li>
+</ul>
+
+<h2>八、未成年人保护</h2>
+<p>本 App 是面向配送从业人员的工作类应用,不面向未满 18 周岁的未成年人。如您未满 18 周岁,请勿使用本 App。如我们发现误收集了未成年人个人信息,将在第一时间删除。</p>
+
+<h2>九、隐私政策的变更</h2>
+<p>我们可能会适时修订本政策。当条款发生重大变更时,我们会在 App 内显著位置提示您,并通过版本更新公告告知。</p>
+
+<h2>十、联系我们</h2>
+<ul>
+  <li><strong>公司名称</strong>:[请填写]</li>
+  <li><strong>公司地址</strong>:[请填写]</li>
+  <li><strong>联系电话</strong>:[请填写]</li>
+  <li><strong>电子邮件</strong>:[请填写]</li>
+  <li><strong>数据保护负责人</strong>:[请填写姓名 / 邮箱]</li>
+</ul>
+<p>我们将在收到您的请求后 <strong>15 个工作日</strong>内回复。</p>
+
+<hr>
+<p class="footer">本政策的最终解释权归 [公司名称] 所有。</p>
+
+</section>
+
+
+<!-- ========== English Version ========== -->
+<section id="lang-en" class="lang-content">
+
+<h1>Privacy Policy</h1>
+<p class="meta">Last Updated: May 25, 2026 &nbsp;|&nbsp; Effective Date: May 25, 2026</p>
+
+<h2>1. Introduction</h2>
+<p>Welcome to <strong>SiamFood TMS</strong> (the "App"). The App is developed and operated by <strong>[Company Name]</strong> ("we," "us," or "our"). It is a workforce management application designed for delivery drivers, primarily used for task management, real-time location reporting, barcode scanning, electronic signing, and related operations.</p>
+<p>We understand the importance of personal information to you and are committed to protecting it. We follow these principles: accountability, clarity of purpose, consent, data minimization, security, user participation, and transparency.</p>
+<p>This Privacy Policy explains what information we collect, how we use it, with whom we share it, how we protect it, and your rights regarding your information.</p>
+
+<h2>2. Information We Collect</h2>
+
+<h3>2.1 Information You Provide</h3>
+<ul>
+  <li><strong>Account Information</strong>: Employee ID, username, password (encrypted) used for login</li>
+  <li><strong>Profile Information</strong>: Name, company affiliation, fleet (if applicable)</li>
+</ul>
+
+<h3>2.2 Information We Collect Automatically</h3>
+
+<h4>(1) Location Information</h4>
+<ul>
+  <li><strong>What we collect</strong>: Precise GPS data (latitude, longitude, speed, heading, altitude)</li>
+  <li><strong>How</strong>: Via your device's GPS, Wi-Fi, and cellular network</li>
+  <li><strong>Why</strong>:
+    <ul>
+      <li>In foreground: To determine your current location, plan routes, and display maps</li>
+      <li>In background: To continuously report location for dispatch tracking and on-time performance</li>
+    </ul>
+  </li>
+  <li><strong>Background location</strong>: Collected only during active delivery tasks; collection stops when tasks end</li>
+  <li><strong>If you deny access</strong>: Delivery task features will be unavailable</li>
+</ul>
+
+<h4>(2) Camera and Photos</h4>
+<ul>
+  <li><strong>What we collect</strong>: Photos captured for proof of delivery, document photos, and images selected from your library</li>
+  <li><strong>Why</strong>: To scan barcodes / QR codes, capture proof-of-delivery photos, and upload supporting documents</li>
+  <li><strong>If you deny access</strong>: Scanning and photo confirmation will be unavailable</li>
+</ul>
+
+<h4>(3) Microphone</h4>
+<ul>
+  <li><strong>What we collect</strong>: Audio captured while recording verification videos</li>
+  <li><strong>Why</strong>: For delivery scenarios that require video verification</li>
+  <li><strong>If you deny access</strong>: Videos with audio cannot be recorded</li>
+</ul>
+
+<h4>(4) Bluetooth</h4>
+<ul>
+  <li><strong>What we collect</strong>: Connection information needed to communicate with external Bluetooth devices (e.g., handheld barcode scanners, portable printers)</li>
+  <li><strong>Why</strong>: To connect hardware devices used in delivery operations</li>
+  <li><strong>If you deny access</strong>: External Bluetooth hardware will not function</li>
+</ul>
+
+<h4>(5) Device Information</h4>
+<ul>
+  <li><strong>What we collect</strong>: Device model, OS version, device identifier (e.g., IDFV), network type, app version</li>
+  <li><strong>Why</strong>: Troubleshooting, compatibility checks, security auditing</li>
+</ul>
+
+<h4>(6) Log Information</h4>
+<ul>
+  <li><strong>What we collect</strong>: Operation logs, error logs, network request records</li>
+  <li><strong>Why</strong>: Troubleshooting, product improvement, security auditing</li>
+</ul>
+
+<h3>2.3 Information We Do NOT Collect</h3>
+<ul>
+  <li>Your contacts, SMS messages, or call history</li>
+  <li>Personal information unrelated to delivery operations</li>
+  <li>Bank cards or payment account information (the App does not process payments)</li>
+</ul>
+
+<h2>3. How We Use Your Information</h2>
+<ol>
+  <li><strong>Core business functionality</strong>: Task assignment, route planning, delivery confirmation, document upload</li>
+  <li><strong>Operational security</strong>: Authentication, fraud prevention, anomaly detection</li>
+  <li><strong>Product improvement</strong>: Usage analytics, bug fixes, performance optimization</li>
+  <li><strong>Legal compliance</strong>: Cooperation with lawful requests from law enforcement and regulators</li>
+</ol>
+<p>We commit not to use your information for purposes other than those stated above, and not to sell or rent your personal information to any third party.</p>
+
+<h2>4. Sharing, Transfer, and Public Disclosure</h2>
+
+<h3>4.1 Sharing</h3>
+<table>
+<thead><tr><th>Recipient</th><th>Information Shared</th><th>Purpose</th><th>Privacy Policy</th></tr></thead>
+<tbody>
+<tr><td><strong>AMap (Gaode Maps)</strong></td><td>Location, device info</td><td>Map display, route planning, navigation</td><td><a href="https://lbs.amap.com/pages/privacy/" target="_blank">Link</a></td></tr>
+<tr><td><strong>Our Dispatch System (self-hosted)</strong></td><td>Location, task execution data</td><td>Dispatch management, delivery tracking</td><td>Same as this Policy</td></tr>
+</tbody>
+</table>
+
+<h3>4.2 Transfer</h3>
+<p>We will not transfer your personal information to any other company or individual, except: with your prior explicit consent; or in connection with a merger, acquisition, asset transfer, or bankruptcy, in accordance with the law, with the new entity bound by this Policy.</p>
+
+<h3>4.3 Public Disclosure</h3>
+<p>We will only publicly disclose your information with your explicit consent or as required by law.</p>
+
+<h2>5. Data Storage</h2>
+<ul>
+  <li><strong>Location</strong>: Servers located in China</li>
+  <li><strong>Retention</strong>: Stored while we provide services; deleted or anonymized after account deletion or expiration of legal retention periods</li>
+  <li><strong>Local storage</strong>: Account credentials securely stored using iOS Keychain encryption</li>
+</ul>
+
+<h2>6. Data Security</h2>
+<ul>
+  <li>HTTPS / TLS encryption for network transmission</li>
+  <li>Keychain encryption for sensitive credentials</li>
+  <li>Least-privilege server-side access controls</li>
+  <li>Regular security audits and vulnerability scans</li>
+  <li>Employee confidentiality agreements and privacy training</li>
+</ul>
+<p>No method of transmission over the Internet is 100% secure; we will do our utmost to protect your information.</p>
+
+<h2>7. Your Rights</h2>
+<ul>
+  <li><strong>Right of access</strong>: You may query and review your information</li>
+  <li><strong>Right to rectification</strong>: You may correct inaccurate or incomplete information</li>
+  <li><strong>Right to erasure</strong>: You may request deletion subject to legal requirements</li>
+  <li><strong>Right to withdraw consent</strong>: You may withdraw consent previously granted</li>
+  <li><strong>Right to deactivate account</strong>: You may contact us to deactivate your account</li>
+  <li><strong>Right to complain</strong>: You may file a complaint with regulators</li>
+</ul>
+
+<h2>8. Protection of Minors</h2>
+<p>The App is a workforce application for delivery professionals and is not intended for minors under 18. If you are under 18, please do not use the App. If we discover inadvertent collection of minors' personal information, we will delete it immediately.</p>
+
+<h2>9. Changes to This Privacy Policy</h2>
+<p>We may revise this Policy from time to time. When material changes occur, we will notify you prominently within the App and through release notes.</p>
+
+<h2>10. Contact Us</h2>
+<ul>
+  <li><strong>Company Name</strong>: [To be filled]</li>
+  <li><strong>Company Address</strong>: [To be filled]</li>
+  <li><strong>Phone</strong>: [To be filled]</li>
+  <li><strong>Email</strong>: [To be filled]</li>
+  <li><strong>Data Protection Officer</strong>: [Name / Email — optional]</li>
+</ul>
+<p>We will respond within <strong>15 business days</strong> of receiving your request.</p>
+
+<hr>
+<p class="footer">[Company Name] reserves the right of final interpretation of this Policy.</p>
+
+</section>
+
+</main>
+
+<script>
+  function switchLang(lang) {
+    document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-switch button').forEach(el => el.classList.remove('active'));
+    document.getElementById('lang-' + lang).classList.add('active');
+    document.getElementById('btn-' + lang).classList.add('active');
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+    try { localStorage.setItem('privacyLang', lang); } catch(e) {}
+  }
+  (function() {
+    var saved = null;
+    try { saved = localStorage.getItem('privacyLang'); } catch(e) {}
+    if (!saved) {
+      saved = (navigator.language || 'en').toLowerCase().startsWith('zh') ? 'zh' : 'en';
+    }
+    switchLang(saved);
+  })();
+</script>
+
+</body>
+</html>
