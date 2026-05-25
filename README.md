@@ -1,0 +1,2 @@
+# privacy
+for siamfood app
